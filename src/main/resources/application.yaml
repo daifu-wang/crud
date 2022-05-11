@@ -1,0 +1,14 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/practice?serverTimezone=GMT%2B8&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: Wdfhahaqsn123
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
