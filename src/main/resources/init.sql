@@ -5,5 +5,3 @@ CREATE TABLE IF NOT EXISTS employee (
   age tinyInt NOT NULL,
   PRIMARY KEY (id)
 );
-
-insert into employee (id, first_name, last_name, age) values ("daifu","wang",30);
